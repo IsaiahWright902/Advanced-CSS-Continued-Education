@@ -48,7 +48,8 @@ body {
 }
 
 .logo:hover {
-  height: 45px;
+  cursor: pointer;
+  animation: logoHover 0.5s ease-out;
 }
 
 .text-box {
@@ -132,6 +133,21 @@ body {
   100% {
     opacity: 1;
     transform: translate(0);
+  }
+}
+
+@keyframes logoHover {
+  0% {
+    opacity: 0.5;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-15px);
+  }
+  100% {
+    opacity: 0.5;
+    transform: translateY(0);
   }
 }
 

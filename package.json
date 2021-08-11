@@ -1,0 +1,22 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "CSS Animations ",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaiahWright902/AdvancedCSS-Continued-Education-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaiahWright902/AdvancedCSS-Continued-Education-/issues"
+  },
+  "homepage": "https://github.com/IsaiahWright902/AdvancedCSS-Continued-Education-#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
